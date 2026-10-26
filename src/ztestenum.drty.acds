@@ -1,0 +1,5 @@
+@EndUserText.label: 'test'
+define type ztestenum: abap.int1 enum {
+    enum_constant_1 = initial;
+    enum_constant_2 = 1;
+}

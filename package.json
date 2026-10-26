@@ -1,0 +1,18 @@
+{
+  "name": "abap-offstack-sample",
+  "private": true,
+  "version": "1.0.0",
+  "description": "ABAP Offstack Sample",
+  "scripts": {
+    "unit": "rm -rf output && abap_transpile && echo RUNNING && node output/index.mjs",
+    "lint": "abaplint",
+    "test": "npm run lint && npm run unit"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "dependencies": {
+    "@abaplint/cli": "^2.115.27",
+    "@abaplint/runtime": "^2.12.32",
+    "@abaplint/transpiler-cli": "^2.12.32"
+  }
+}
