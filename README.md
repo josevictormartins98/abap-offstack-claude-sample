@@ -2,6 +2,8 @@
 
 Um projeto de exemplo demonstrando como usar o [abaplint](https://abaplint.org) e o [abap-transpiler](https://github.com/abaplint/transpiler) para executar **análise estática (linting) e testes unitários de ABAP off-stack** — sem a necessidade de um sistema SAP.
 
+> **Nota:** Este projeto foi baseado no repositório de exemplo [MagPasulke/abap-offstack-sample](https://github.com/MagPasulke/abap-offstack-sample).
+
 ## Objetivo
 
 Este projeto demonstra que as verificações de qualidade de código ABAP e os testes unitários podem ser executados inteiramente de forma local ou em uma esteira CI/CD, sem se conectar a um backend SAP.
@@ -236,10 +238,8 @@ O fluxo de trabalho `.github/workflows/qualitychecks.yml` executa o `abaplint` a
 
 ## Referências
 
+* [MagPasulke/abap-offstack-sample](https://github.com/MagPasulke/abap-offstack-sample) (Repositório base)
 * [abaplint](https://abaplint.org)
-
 * [abaplint/transpiler](https://github.com/abaplint/transpiler)
-
 * [open-abap](https://github.com/open-abap)
-
 * [Claude Code Guide for ABAP Developers](https://claude.ai)
